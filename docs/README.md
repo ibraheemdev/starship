@@ -91,6 +91,13 @@ description: Starship is the minimal, blazing fast, and extremely customizable p
    ```sh
    Invoke-Expression (&starship init powershell)
    ```
+   #### Nushell
+
+   Run the following command:
+
+   ```sh
+   config set prompt "starship prompt"
+   ```
 
    #### Ion
 
@@ -114,4 +121,4 @@ description: Starship is the minimal, blazing fast, and extremely customizable p
 
    eval (starship init elvish)
    ```
-
+   
